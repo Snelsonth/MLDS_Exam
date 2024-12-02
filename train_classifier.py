@@ -37,13 +37,6 @@ def split_data(X, y):
 
     return X_train, X_test, y_train, y_test
 
-import os
-import joblib
-from sklearn.datasets import make_classification
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report
-
 
 # Générer les données
 def generate_data():
